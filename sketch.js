@@ -17,7 +17,7 @@ function setup() {
 
   createCanvas(1500,700);
 
-  balloon=createSprite(250,650,150,150);
+  balloon = createSprite(250,650,150,150);
   balloon.addAnimation("hotAirBalloon",balloonImage1);
   balloon.scale=0.5;
 
